@@ -4,6 +4,9 @@ const express = require('express');
 // App Setup
 const app = express();
 
+// Set Assets Directory
+app.use(express.static('assets'));
+
 // Middleware
 const exphbs = require('express-handlebars');
 
@@ -19,15 +22,15 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
-app.get('/greetings/:name', (req, res) => {
+app.get('/:symbol', (req, res) => {
     // grab the name from the path provided
-    const name = req.params.name;
+    const symbol = req.params.symbol;
     // render the greetings view, passing along the name
-    res.render('greetings', { name });
+    res.render('drilldown', { symbol });
 });
 
 // Start Server
 
 app.listen(3000, () => {
-    console.log('Gif Search listening on port localhost:3000!');
+    console.log('CryptoHUD listening on port localhost:3000!');
 });
