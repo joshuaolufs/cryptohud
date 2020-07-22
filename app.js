@@ -16,7 +16,7 @@ app.set('view engine', 'handlebars');
 // Routes
 app.get('/', (req, res) => {
     // log any query strnig
-    console.log(req.query)
+    //console.log(req.query)
 
     // render the home page
     res.render('home');

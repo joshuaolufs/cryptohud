@@ -1,14 +1,89 @@
 body {
     background-color: #111;
+    margin: 0;
+    padding: 0;
 }
+
+nav {
+    position: fixed;
+    display: flex;
+    top: 0;
+    color: #fff;
+    background-color: #222;
+    padding: 20px;
+    box-sizing: content-box;
+    box-shadow: 0 0px 10px #000;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    padding-right: 0;
+    box-sizing: content-box;
+    margin-top: 4rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 0px 10px #000;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/**/
+
+#period-menu span {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: .25rem;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: #fff;
+    width: 3rem;
+    text-align: center;
+}
+
+#period-menu span:hover {
+    cursor: pointer;
+}
+
+#tradingview-widget-copywright {
+    flex-grow: 1;
+    text-align: right;
+}
+
+
+/**/
 
 #grid-container {
-    display: inline-grid;
-    grid-gap: 10px 10px;
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 30% 30% 30%;
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    /*grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;*/
+    max-height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#grid-container>div {}
+#grid-container .grid-item {
+    height: 240px;
+    flex-basis: 480px;
+    flex-grow: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tradingview-widget-container {
+    height: 100%;
+}
+
+.chart {
+    height: 100%;
+}
