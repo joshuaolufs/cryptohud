@@ -1,0 +1,85 @@
+new TradingView.widget({
+    "autosize": "true",
+    "height": 200,
+    "symbol": "BINANCE:LINKUSDT",
+    "interval": "1",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "8",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_top_toolbar": true,
+    "save_image": false,
+    "container_id": "tradingview_db1"
+});
+new TradingView.widget({
+    "autosize": "true",
+    "symbol": "BINANCE:XRPUSDT",
+    "interval": "1",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "8",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_top_toolbar": true,
+    "save_image": false,
+    "container_id": "tradingview_db2"
+});
+new TradingView.widget({
+    "autosize": "true",
+    "symbol": "BINANCE:KNCUSDT",
+    "interval": "1",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "8",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_top_toolbar": true,
+    "save_image": false,
+    "container_id": "tradingview_db3"
+});
+new TradingView.widget({
+    "autosize": "true",
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "1",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "8",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_top_toolbar": true,
+    "save_image": false,
+    "container_id": "tradingview_db4"
+});
+new TradingView.widget({
+    "autosize": "true",
+    "symbol": "BINANCE:XTZUSDT",
+    "interval": "1",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "8",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_top_toolbar": true,
+    "save_image": false,
+    "container_id": "tradingview_db5"
+});
+new TradingView.widget({
+    "autosize": "true",
+    "symbol": "BINANCE:ADAUSDT",
+    "interval": "1",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "8",
+    "locale": "en",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_top_toolbar": true,
+    "save_image": false,
+    "container_id": "tradingview_db6"
+});
